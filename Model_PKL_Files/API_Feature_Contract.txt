@@ -1,0 +1,134 @@
+=========================================================
+           MACHINE LEARNING API FEATURE CONTRACT         
+=========================================================
+
+CRITICAL WARNING TO FRONTEND/DATA INGESTION TEAM:
+The backend API requires an array of exactly 114 features.
+They MUST be provided in the exact strict index order listed below.
+Failure to maintain this order will silently corrupt the Matrix scaling.
+
+---------------------------------------------------------
+PART 1: FINANCIAL DATA (111 columns)
+---------------------------------------------------------
+[0] : SPX_PX_LAST
+[1] : SPX_PX_VOLUME
+[2] : VIX_PX_HIGH
+[3] : USGG10YR_PX_LAST
+[4] : USGG2YR_PX_LAST
+[5] : USGG3M_PX_LAST
+[6] : XAUUSD_PX_LAST
+[7] : CL1_PX_LAST
+[8] : SPX_log_ret_1d
+[9] : SPX_log_ret_5d
+[10] : SPX_log_ret_21d
+[11] : SPX_log_ret_63d
+[12] : SPX_log_ret_126d
+[13] : SPX_GK_vol_5d
+[14] : SPX_GK_vol_10d
+[15] : SPX_GK_vol_21d
+[16] : SPX_GK_vol_63d
+[17] : SPX_vol_ratio_5_63
+[18] : SPX_vol_ratio_21_63
+[19] : SPX_sharpe_21d
+[20] : SPX_sharpe_63d
+[21] : SPX_sharpe_126d
+[22] : SPX_drawdown_21d
+[23] : SPX_drawdown_63d
+[24] : SPX_drawdown_126d
+[25] : SPX_drawdown_252d
+[26] : SPX_vs_MA_50
+[27] : SPX_vs_MA_200
+[28] : SPX_below_MA200
+[29] : SPX_MA50_slope
+[30] : SPX_MA200_slope
+[31] : SPX_skew_21d
+[32] : SPX_kurt_21d
+[33] : SPX_autocorr_21d
+[34] : SPX_intraday_ret
+[35] : SPX_range_pct
+[36] : SPX_volume_chg_1d
+[37] : SPX_volume_MA_20
+[38] : SPX_volume_vs_MA20
+[39] : SPX_volume_zscore_63
+[40] : SPX_RSI_2
+[41] : SPX_RSI_5
+[42] : SPX_RSI_14
+[43] : SPX_BB_width
+[44] : SPX_BB_pct_b
+[45] : SPX_MACD_hist
+[46] : SPX_MACD_hist_chg
+[47] : VIX_chg_1d
+[48] : VIX_ret_1d
+[49] : VIX_ret_5d
+[50] : VIX_ret_10d
+[51] : VIX_range
+[52] : VIX_range_5d_avg
+[53] : VIX_range_21d_avg
+[54] : VIX_MA_20
+[55] : VIX_MA_60
+[56] : VIX_term_struct_proxy
+[57] : VIX_vs_MA_20
+[58] : VIX_pct_rank_252
+[59] : VIX_above_20
+[60] : VIX_above_25
+[61] : VIX_above_30
+[62] : VIX_vol_5d
+[63] : VIX_vol_21d
+[64] : US10Y_chg_1d
+[65] : US10Y_chg_10d
+[66] : US2Y_chg_1d
+[67] : US2Y_chg_10d
+[68] : US3M_chg_1d
+[69] : YC_10Y_2Y
+[70] : YC_10Y_3M
+[71] : YC_2Y_3M
+[72] : YC_10Y_2Y_chg_10d
+[73] : YC_10Y_2Y_chg_20d
+[74] : YC_10Y_3M_chg_10d
+[75] : YC_inverted_10Y2Y
+[76] : YC_inverted_10Y3M
+[77] : YC_deinversion_signal
+[78] : US2Y_vs_MA20
+[79] : GOLD_log_ret_1d
+[80] : GOLD_log_ret_5d
+[81] : GOLD_log_ret_21d
+[82] : GOLD_rel_strength_21d
+[83] : GOLD_SPX_ratio
+[84] : GOLD_vol_21d
+[85] : OIL_log_ret_1d
+[86] : OIL_log_ret_21d
+[87] : OIL_vol_21d
+[88] : OIL_WTI_Brent_spread
+[89] : OIL_WTI_Brent_spread_chg
+[90] : GOLD_OIL_ratio
+[91] : DJ_log_ret_1d
+[92] : NDX_log_ret_1d
+[93] : MXWO_log_ret_1d
+[94] : DJ_log_ret_21d
+[95] : NDX_log_ret_21d
+[96] : MXWO_log_ret_21d
+[97] : NDX_GK_vol_21d
+[98] : MXWO_GK_vol_21d
+[99] : NDX_SPX_ratio
+[100] : NDX_SPX_ratio_chg_21d
+[101] : corr_SPX_NDX_21d
+[102] : corr_SPX_MXWO_21d
+[103] : index_return_dispersion_21d
+[104] : MXWO_SPX_ret_divergence_21d
+[105] : stress_vix_spike
+[106] : stress_gold_outperform
+[107] : stress_yc_steepening
+[108] : stress_oil_spike
+[109] : stress_vol_regime
+[110] : stress_composite_score
+
+---------------------------------------------------------
+PART 2: BEHAVIORAL/REDDIT DATA (3 columns)
+---------------------------------------------------------
+[111] : weighted_sentiment
+[112] : momentum
+[113] : total_mentions
+
+=========================================================
+END OF CONTRACT
+=========================================================

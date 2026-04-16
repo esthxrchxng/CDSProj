@@ -1,0 +1,14 @@
+torch
+transformers
+scikit-learn
+pandas
+numpy
+pytorch-tabnet==4.1.0
+fastapi>=0.104.0
+pydantic>=2.0.0
+uvicorn>=0.24.0
+plotly>=5.17.0
+streamlit>=1.28.0
+torchvision
+pytz
+yfinance
