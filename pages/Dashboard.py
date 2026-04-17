@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
+from plotly.subplots import make_subplots
 import numpy as np
 
 # Page config
@@ -435,7 +436,7 @@ def main():
         st.info("💡 **Public Access**\n\nView risk predictions and S&P 500 outcomes. Advanced analytics require admin access.")
 
         if st.button("🔐 Admin Login", use_container_width=True):
-            st.switch_page("pages/2_🔐_Admin_Login.py")
+            st.switch_page("pages/Admin_Login.py")
 
     # Get prediction row for selected date
     pred_row = pred_df[pred_df['Date'] == selected_date]
@@ -590,32 +591,118 @@ def main():
                 + ("  |  ⚠️ Partial window (data ends Apr 2, 2026)" if available_days < 30 else "")
             )
 
-    # Locked Content Section
+    # Advanced Analytics Section
     st.markdown("---")
-    st.markdown("### <span style='color: #e2e8f0;'>🔒 Advanced Analytics</span>", unsafe_allow_html=True)
-    st.caption("Login as admin to unlock sentiment analysis, model confidence, and advanced metrics")
 
-    col1, col2 = st.columns(2)
+    if st.session_state.get('authenticated', False):
+        # Sentiment & Momentum Analysis
+        st.markdown("## 💭 Sentiment & Momentum Analysis")
+        fig_sentiment = make_subplots(specs=[[{"secondary_y": True}]])
+        fig_sentiment.add_trace(
+            go.Scatter(
+                x=pred_df['Date'],
+                y=pred_df['weighted_sentiment'],
+                name='Sentiment',
+                line=dict(color='#60a5fa', width=2.5),
+                fill='tozeroy',
+                fillcolor='rgba(96, 165, 250, 0.1)'
+            ),
+            secondary_y=False
+        )
+        fig_sentiment.add_trace(
+            go.Bar(
+                x=pred_df['Date'],
+                y=pred_df['momentum'],
+                name='Momentum',
+                marker_color='#f6e05e',
+                opacity=0.6,
+                marker_line_width=0
+            ),
+            secondary_y=True
+        )
+        fig_sentiment.update_layout(
+            height=400,
+            template='plotly_dark',
+            paper_bgcolor='rgba(0,0,0,0)',
+            plot_bgcolor='rgba(0,0,0,0)',
+            hovermode='x unified',
+            margin=dict(l=40, r=40, t=40, b=40),
+            font=dict(family='Inter, sans-serif', size=12, color='#e2e8f0'),
+            legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1,
+                        font=dict(color='#e2e8f0'), bgcolor='rgba(14,17,23,0.8)',
+                        bordercolor='rgba(255,255,255,0.1)', borderwidth=1),
+            hoverlabel=dict(bgcolor='#1e293b', font_color='#e2e8f0', font_size=12)
+        )
+        fig_sentiment.update_yaxes(title_text="Sentiment", secondary_y=False,
+                                   showgrid=True, gridcolor='rgba(255,255,255,0.06)',
+                                   title_font=dict(color='#94a3b8'), tickfont=dict(color='#94a3b8'))
+        fig_sentiment.update_yaxes(title_text="Momentum", secondary_y=True,
+                                   showgrid=False,
+                                   title_font=dict(color='#94a3b8'), tickfont=dict(color='#94a3b8'))
+        st.plotly_chart(fig_sentiment, use_container_width=True)
 
-    with col1:
-        st.markdown("""
-        <div class="locked-content">
-            <div style="font-size: 3rem;">🔒</div>
-            <h3 style="color: #e2e8f0;">Sentiment &amp; Momentum</h3>
-            <p style="color: #94a3b8;">Track social media sentiment and market momentum indicators</p>
-            <span style="font-size: 0.7rem; color: #64748b;">Admin access required</span>
-        </div>
-        """, unsafe_allow_html=True)
+        st.markdown("---")
 
-    with col2:
-        st.markdown("""
-        <div class="locked-content">
-            <div style="font-size: 3rem;">🔒</div>
-            <h3 style="color: #e2e8f0;">Ensemble Model</h3>
-            <p style="color: #94a3b8;">View individual model predictions and confidence scores</p>
-            <span style="font-size: 0.7rem; color: #64748b;">Admin access required</span>
-        </div>
-        """, unsafe_allow_html=True)
+        # Ensemble Model Confidence
+        st.markdown("## 🤖 Ensemble Model Confidence")
+        model_names = ["Random Forest", "SVM", "Voting Ensemble", "TabNet"]
+        model_cols = ['Base_RF_Prob', 'Base_SVM_Prob', 'Base_Voting_Prob', 'Base_TabNet_Prob']
+        model_data = [float(pred_df[col].iloc[-1]) for col in model_cols]
+        bar_colors = ['#60a5fa', '#68d391', '#f6e05e', '#fc8181']
+        fig_models = go.Figure(data=[
+            go.Bar(
+                x=model_names,
+                y=model_data,
+                marker_color=bar_colors,
+                text=[f"{x:.1%}" for x in model_data],
+                textposition='outside',
+                textfont={'color': '#e2e8f0', 'size': 13},
+                width=0.5
+            )
+        ])
+        fig_models.update_layout(
+            height=450,
+            template='plotly_dark',
+            paper_bgcolor='rgba(0,0,0,0)',
+            plot_bgcolor='rgba(0,0,0,0)',
+            yaxis_title="Probability of Downturn",
+            yaxis_range=[0, 1.1],
+            yaxis_tickformat='.0%',
+            margin=dict(l=40, r=40, t=40, b=40),
+            showlegend=False,
+            font=dict(family='Inter, sans-serif', size=12, color='#e2e8f0'),
+            yaxis=dict(title_font=dict(color='#94a3b8'), tickfont=dict(color='#94a3b8'),
+                       gridcolor='rgba(255,255,255,0.06)'),
+            xaxis=dict(title_font=dict(color='#94a3b8'), tickfont=dict(color='#94a3b8')),
+            hoverlabel=dict(bgcolor='#1e293b', font_color='#e2e8f0', font_size=12)
+        )
+        st.plotly_chart(fig_models, use_container_width=True)
+
+    else:
+        st.markdown("### <span style='color: #e2e8f0;'>🔒 Advanced Analytics</span>", unsafe_allow_html=True)
+        st.caption("Login as admin to unlock sentiment analysis, model confidence, and advanced metrics")
+
+        col1, col2 = st.columns(2)
+
+        with col1:
+            st.markdown("""
+            <div class="locked-content">
+                <div style="font-size: 3rem;">🔒</div>
+                <h3 style="color: #e2e8f0;">Sentiment &amp; Momentum</h3>
+                <p style="color: #94a3b8;">Track social media sentiment and market momentum indicators</p>
+                <span style="font-size: 0.7rem; color: #64748b;">Admin access required</span>
+            </div>
+            """, unsafe_allow_html=True)
+
+        with col2:
+            st.markdown("""
+            <div class="locked-content">
+                <div style="font-size: 3rem;">🔒</div>
+                <h3 style="color: #e2e8f0;">Ensemble Model</h3>
+                <p style="color: #94a3b8;">View individual model predictions and confidence scores</p>
+                <span style="font-size: 0.7rem; color: #64748b;">Admin access required</span>
+            </div>
+            """, unsafe_allow_html=True)
 
     # Footer
     st.markdown("---")
