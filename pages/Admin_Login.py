@@ -8,115 +8,123 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-# Custom CSS - AESTHETIC LIGHT THEME
+# Custom CSS - DARK THEME
 st.markdown("""
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-    
-    * {
-        font-family: 'Inter', sans-serif;
+
+    * { font-family: 'Inter', sans-serif; }
+
+    .stApp, [data-testid="stAppViewContainer"], [data-testid="stHeader"] {
+        background: #0e1117 !important;
     }
-    
-    .stApp {
-        background: linear-gradient(135deg, #f5f7fa 0%, #ffffff 100%);
+
+    .stApp, .stApp p, .stApp label, .stApp span {
+        color: #e2e8f0;
     }
-    
+
     .login-container {
         max-width: 420px;
         margin: 2rem auto;
         padding: 2.5rem;
-        background: rgba(255, 255, 255, 0.95);
+        background: rgba(22, 28, 45, 0.97);
         backdrop-filter: blur(10px);
         border-radius: 1.5rem;
-        border: 1px solid rgba(0,0,0,0.05);
-        box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+        border: 1px solid rgba(255,255,255,0.08);
+        box-shadow: 0 20px 60px rgba(0,0,0,0.5);
         text-align: center;
     }
-    
+
     .login-header {
         font-size: 4rem;
         margin-bottom: 1rem;
     }
-    
+
     .warning-text {
-        color: #e53e3e;
+        color: #fc8181;
         font-size: 0.8rem;
         margin-top: 1rem;
     }
-    
+
     h1 {
         font-size: 2rem;
         font-weight: 700;
-        background: linear-gradient(135deg, #1a1a2e 0%, #e53e3e 100%);
+        background: linear-gradient(135deg, #e2e8f0 0%, #fc8181 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
         margin-bottom: 0.5rem;
     }
-    
+
     h3 {
-        color: #1a1a2e;
+        color: #e2e8f0;
         font-weight: 600;
     }
-    
+
     p {
-        color: #4a5568;
+        color: #94a3b8;
     }
-    
-    /* Form styling */
+
+    /* Input fields */
     .stTextInput > div > div > input {
-        background-color: #ffffff;
-        border: 1px solid #e2e8f0;
+        background-color: #1e293b !important;
+        border: 1px solid rgba(255,255,255,0.1) !important;
         border-radius: 0.75rem;
         padding: 0.75rem 1rem;
-        color: #1a1a2e;
+        color: #e2e8f0 !important;
         font-size: 1rem;
         transition: all 0.2s ease;
     }
-    
+
     .stTextInput > div > div > input:focus {
-        border-color: #e53e3e;
-        box-shadow: 0 0 0 3px rgba(229, 62, 62, 0.1);
+        border-color: #fc8181 !important;
+        box-shadow: 0 0 0 3px rgba(252, 129, 129, 0.15) !important;
     }
-    
+
     .stTextInput > div > div > input::placeholder {
-        color: #a0aec0;
+        color: #475569;
     }
-    
+
     .stButton > button {
-        background: linear-gradient(135deg, #1a1a2e 0%, #2d2d44 100%);
-        color: white;
-        border: none;
+        background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+        color: #e2e8f0;
+        border: 1px solid rgba(255,255,255,0.1);
         border-radius: 0.75rem;
         padding: 0.75rem 1.5rem;
         font-weight: 600;
         transition: all 0.2s ease;
     }
-    
+
     .stButton > button:hover {
         transform: translateY(-2px);
-        box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+        border-color: rgba(255,255,255,0.2);
     }
-    
-    /* Divider */
+
     .divider {
         display: flex;
         align-items: center;
         text-align: center;
         margin: 1.5rem 0;
     }
-    
+
     .divider::before,
     .divider::after {
         content: '';
         flex: 1;
-        border-bottom: 1px solid #e2e8f0;
+        border-bottom: 1px solid rgba(255,255,255,0.08);
     }
-    
+
     .divider span {
         padding: 0 1rem;
-        color: #a0aec0;
+        color: #475569;
         font-size: 0.8rem;
+    }
+
+    [data-testid="stAlert"] {
+        background: rgba(22, 28, 45, 0.95) !important;
+        color: #e2e8f0 !important;
+        border-radius: 0.5rem;
     }
 </style>
 """, unsafe_allow_html=True)
@@ -125,7 +133,7 @@ st.markdown("""
 if 'authenticated' not in st.session_state:
     st.session_state.authenticated = False
 
-# Admin credentials (in production, use environment variables)
+# Admin credentials
 ADMIN_USERNAME = "admin"
 ADMIN_PASSWORD = "bearpatrol2026"
 
@@ -142,14 +150,14 @@ st.markdown("""
 with st.form("login_form"):
     username = st.text_input("Username", placeholder="admin", label_visibility="collapsed")
     password = st.text_input("Password", type="password", placeholder="••••••••", label_visibility="collapsed")
-    
+
     col1, col2 = st.columns(2)
     with col1:
         submitted = st.form_submit_button("🔓 Sign In", use_container_width=True)
     with col2:
         if st.form_submit_button("🏠 Back to Home", use_container_width=True):
             st.switch_page("app.py")
-    
+
     if submitted:
         if username == ADMIN_USERNAME and password == ADMIN_PASSWORD:
             st.session_state.authenticated = True
@@ -165,7 +173,7 @@ with st.form("login_form"):
 
 # Footer
 st.markdown("""
-<div style="text-align: center; color: #718096; font-size: 0.7rem; margin-top: 2rem;">
+<div style="text-align: center; color: #475569; font-size: 0.7rem; margin-top: 2rem;">
     🔒 Restricted area | Authorized personnel only
 </div>
 """, unsafe_allow_html=True)

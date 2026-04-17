@@ -1,0 +1,25 @@
+============================================================
+MODEL PERFORMANCE SUMMARY
+============================================================
+
+MODEL PERFORMANCE:
+  Best F1 Score: 0.3077
+  Best Accuracy: 0.5484
+  Best Precision: 0.7667
+  Best Recall: 0.5333
+
+SENTIMENT STATISTICS:
+  Mean sentiment: 0.4963
+  Median sentiment: 0.4981
+  Std deviation: 0.0103
+  Max sentiment: 0.5127
+  Min sentiment: 0.4780
+  Positive days (>0.5): 3/10 (30.0%)
+  Negative days (<0.5): 7/10 (70.0%)
+  Neutral days (=0.5): 0/10 (0.0%)
+
+DATA COVERAGE:
+  Date range: 2010-04-14 to 2010-12-16
+  Total days analyzed: 10
+  Total test samples: 31
+  Total mentions: 24.0

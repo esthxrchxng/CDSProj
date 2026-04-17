@@ -8,75 +8,104 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Custom CSS
+# Custom CSS - DARK THEME
 st.markdown("""
 <style>
-    .stApp {
-        background: linear-gradient(135deg, #EFF9E8 30%, #EFF9E8 100%);
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+    * { font-family: 'Inter', sans-serif; }
+
+    .stApp, [data-testid="stAppViewContainer"], [data-testid="stHeader"] {
+        background: #0e1117 !important;
     }
-    
+
+    .stApp, .stApp p, .stApp li, .stApp span {
+        color: #e2e8f0;
+    }
+
     .hero-section {
         text-align: center;
         padding: 3rem 2rem;
-        background: linear-gradient(135deg, #658C6E 0%, #85A898 100%);
+        background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
         border-radius: 1rem;
         margin-bottom: 2rem;
-        border: 1px solid #DFCD80;
+        border: 1px solid rgba(252, 129, 129, 0.3);
+        box-shadow: 0 8px 32px rgba(0,0,0,0.4);
     }
-    
+
     .feature-card {
-        background: linear-gradient(135deg, #658C6E 0%, #85A898 100%);
+        background: rgba(22, 28, 45, 0.95);
         padding: 1.5rem;
-        border-radius: 0.5rem;
-        border: 1px solid #DFCD80;
+        border-radius: 0.75rem;
+        border: 1px solid rgba(255,255,255,0.07);
         text-align: center;
         transition: all 0.3s ease;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.3);
     }
-    
+
     .feature-card:hover {
-        border-color: #658C6E;
+        border-color: rgba(96, 165, 250, 0.4);
         transform: translateY(-5px);
-        box-shadow: 0 4px 12px rgba(255, 184, 0, 0.3)
+        box-shadow: 0 8px 24px rgba(0,0,0,0.5);
     }
-    
+
     .feature-icon {
         font-size: 2.5rem;
         margin-bottom: 1rem;
     }
-    
+
     .team-member {
         text-align: center;
         padding: 1rem;
-        background: #DFCD80;
-        border-radius: 0.5rem;
-        border: 1px solid #F5E2B0;
+        background: rgba(22, 28, 45, 0.95);
+        border-radius: 0.75rem;
+        border: 1px solid rgba(255,255,255,0.07);
+        transition: all 0.2s ease;
     }
-    
-    h1, h2, h3 {
-        color: #444f3f !important;
+
+    .team-member:hover {
+        border-color: rgba(96, 165, 250, 0.3);
+        box-shadow: 0 4px 16px rgba(0,0,0,0.4);
     }
-    
+
+    h1, h2, h3, h4 {
+        color: #e2e8f0 !important;
+    }
+
     .bear-badge {
         font-size: 4rem;
         margin-bottom: 1rem;
     }
-            
+
     .stButton > button {
-        background-color: #677345;
-        color: #ffffff;
-        border: none;
-        border-radius: 0.25rem;
+        background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+        color: #e2e8f0;
+        border: 1px solid rgba(255,255,255,0.1);
+        border-radius: 0.5rem;
         padding: 0.5rem 1rem;
         font-weight: 600;
         transition: all 0.3s ease;
     }
-    
-    /* Button hover effect */
+
     .stButton > button:hover {
-        background-color: #BFC997;
-        color: #000000;
+        background: linear-gradient(135deg, #334155 0%, #475569 100%);
+        color: #ffffff;
         transform: translateY(-2px);
-        box-shadow: 0 4px 12px rgba(255, 184, 0, 0.3);
+        box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+        border-color: rgba(255,255,255,0.2);
+    }
+
+    [data-testid="stSidebar"] {
+        background: #111827 !important;
+        border-right: 1px solid rgba(255,255,255,0.07);
+    }
+    [data-testid="stSidebar"] * { color: #e2e8f0 !important; }
+
+    hr {
+        margin: 1.5rem 0;
+        border: none;
+        height: 1px;
+        background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
     }
 </style>
 """, unsafe_allow_html=True)
@@ -87,10 +116,14 @@ with col2:
     st.markdown("""
     <div class="hero-section">
         <div class="bear-badge">🐻</div>
-        <h1 style="color: #ffb800; margin-bottom: 0;">THE BEAR PATROL</h1>
-        <p style="color: #ffffff; font-size: 1.1rem;">S&P 500 Bear Market Early Warning System</p>
-        <p style="color: #000000; font-size: 0.85rem; letter-spacing: 2px; margin-top: 1rem;">
-            SHANI • ESTHER • MATTHEW • DESMOND
+        <h1 style="background: linear-gradient(135deg, #e2e8f0 0%, #fc8181 100%);
+                   -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+                   background-clip: text; font-size: 2.5rem; font-weight: 700; margin-bottom: 0;">
+            THE BEAR PATROL
+        </h1>
+        <p style="color: #94a3b8; font-size: 1.1rem; margin-top: 0.5rem;">S&P 500 Bear Market Early Warning System</p>
+        <p style="color: #64748b; font-size: 0.85rem; letter-spacing: 2px; margin-top: 1rem;">
+            SHANI &bull; ESTHER &bull; MATTHEW &bull; DESMOND
         </p>
     </div>
     """, unsafe_allow_html=True)
@@ -104,8 +137,8 @@ with col1:
     st.markdown("""
     <div class="feature-card">
         <div class="feature-icon">📊</div>
-        <h3>Real-time Risk Scoring</h3>
-        <p style="color: #ffffff;">AI-powered risk detection with 85%+ accuracy</p>
+        <h3 style="color: #e2e8f0;">Real-time Risk Scoring</h3>
+        <p style="color: #94a3b8;">AI-powered risk detection with 85%+ accuracy</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -113,8 +146,8 @@ with col2:
     st.markdown("""
     <div class="feature-card">
         <div class="feature-icon">💬</div>
-        <h3>Social Sentiment Analysis</h3>
-        <p style="color: #ffffff;">NLP-driven market sentiment from social media</p>
+        <h3 style="color: #e2e8f0;">Social Sentiment Analysis</h3>
+        <p style="color: #94a3b8;">NLP-driven market sentiment from social media</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -122,8 +155,8 @@ with col3:
     st.markdown("""
     <div class="feature-card">
         <div class="feature-icon">🤖</div>
-        <h3>Ensemble ML Models</h3>
-        <p style="color: #ffffff;">Multiple models combined for robust predictions</p>
+        <h3 style="color: #e2e8f0;">Ensemble ML Models</h3>
+        <p style="color: #94a3b8;">Multiple models combined for robust predictions</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -144,7 +177,7 @@ with col2:
 with col3:
     st.markdown("""
     <div style="text-align: center; padding: 0.5rem;">
-        <span style="color: #677345; font-size: 0.8rem;">🔒 Admin-only analytics</span>
+        <span style="color: #64748b; font-size: 0.8rem;">🔒 Admin-only analytics</span>
     </div>
     """, unsafe_allow_html=True)
 
@@ -158,7 +191,7 @@ with col1:
     st.markdown("""
     <div class="team-member">
         <div style="font-size: 2rem;">👩‍💻</div>
-        <h4>Shani</h4>
+        <h4 style="color: #e2e8f0;">Shani</h4>
     </div>
     """, unsafe_allow_html=True)
 
@@ -166,7 +199,7 @@ with col2:
     st.markdown("""
     <div class="team-member">
         <div style="font-size: 2rem;">👩‍💼</div>
-        <h4>Esther</h4>
+        <h4 style="color: #e2e8f0;">Esther</h4>
     </div>
     """, unsafe_allow_html=True)
 
@@ -174,7 +207,7 @@ with col3:
     st.markdown("""
     <div class="team-member">
         <div style="font-size: 2rem;">👨‍🔧</div>
-        <h4>Matthew</h4>
+        <h4 style="color: #e2e8f0;">Matthew</h4>
     </div>
     """, unsafe_allow_html=True)
 
@@ -182,15 +215,15 @@ with col4:
     st.markdown("""
     <div class="team-member">
         <div style="font-size: 2rem;">👨‍💻</div>
-        <h4>Desmond</h4>
+        <h4 style="color: #e2e8f0;">Desmond</h4>
     </div>
     """, unsafe_allow_html=True)
 
 # Footer
 st.markdown("---")
 st.markdown("""
-<div style="text-align: center; color: #787b86; font-size: 0.7rem; padding: 2rem;">
+<div style="text-align: center; color: #475569; font-size: 0.7rem; padding: 2rem;">
     🐻 THE BEAR PATROL | Protecting retail investors from market downturns<br>
-    Powered by AI • Real-time Analytics • Institutional-grade Accuracy
+    Powered by AI &bull; Real-time Analytics &bull; Institutional-grade Accuracy
 </div>
 """, unsafe_allow_html=True)

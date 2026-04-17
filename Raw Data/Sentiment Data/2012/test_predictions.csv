@@ -1,0 +1,135 @@
+date,pred_label,pred_prob,title,tickers
+2012-01-30,1,0.5610795,Energy Stock Manifesto,"['COST', 'A', 'LOW', 'ALL', 'D', 'NOW', 'ARE', 'ON', 'HAS']"
+2012-02-27,1,0.54904026,$20K emergency fund investment plan. What's good or bad about this?,"['A', 'ON', 'ED', 'IT', 'INTC', 'SO', 'ARE', 'T', 'MCD']"
+2012-07-01,1,0.5796681,Thinking about moving my 403(b).  What do I need to know?,"['A', 'ALL', 'T', 'IT', 'NOW', 'ARE', 'ON']"
+2012-11-27,0,0.2633625,I have $650 in old Garmin stock that is just sitting there collecting dust.  What's a good stock to invest in these days?,"['A', 'ALL']"
+2012-04-19,0,0.24689631,Was Warren Buffett's jump in Bank of America a brilliantly timed sector rotation move?,['A']
+2012-06-21,0,0.29548398,Sears (all speculation here),"['A', 'Q', 'ALL', 'NOW', 'ARE', 'ON']"
+2012-07-29,1,0.5842118,I came up with an economic system that would make mostly everything free by using the stock market. Would this work?,"['A', 'IT', 'SO', 'T', 'HAS']"
+2012-10-13,1,0.5791475,London: Parasites’ Paradise (Or the Best Criminal Sanctuary Money Can Buy),[]
+2012-05-18,1,0.59281397,Battle-Royale: Rent-Generating Investments vs. Stock Market,"['MO', 'A', 'IT', 'WELL', 'SO', 'ARE', 'ON', 'HAS']"
+2012-09-20,1,0.585827,Updated Reading List,"['A', 'ON', 'J', 'ALL', 'BEN']"
+2012-05-18,0,0.2589814,Best time to sell ZNGA?,"['A', 'D', 'IT', 'NOW', 'SO', 'ARE', 'ON']"
+2012-09-13,1,0.56165814,My corporate 401k allows me to self select and invest in the stock market as I see fit. Good idea?,"['ALL', 'A', 'ON', 'T']"
+2012-08-13,1,0.5755134,"Tweedy, Browne & Company - Great 10 Year Record = Great Future, Right?",[]
+2012-03-09,1,0.56113964,El Paso Shareholders Approve Kinder Morgan Takeover,['EL']
+2012-06-20,1,0.5612336,PG -3% on earnings revision.,"['A', 'PG', 'ALL', 'IT', 'KEY', 'NOW', 'ARE', 'ON']"
+2012-07-04,0,0.27498367,The Financial Stud Group Will Save The Economy...,[]
+2012-04-13,1,0.59187067,Tax Carnival #101: Deadline Taxes - Don't Mess With Taxes,['T']
+2012-07-18,1,0.5777858,Secular Long Themes,"['COST', 'A', 'T', 'ON']"
+2012-03-29,1,0.5636407,"Best Buy to Close 50 Stores, Cut Costs",[]
+2012-07-30,0,0.26024842,What are your guys' thoughts on Thompson Creek Metals Company? ,"['A', 'LOW', 'BEN', 'T', 'IT', 'SO', 'ARE', 'ON', 'HAS']"
+2012-01-13,0,0.26218015,AAPL releases list of its suppliers,"['LITE', 'A', 'AAPL', 'ES', 'TECH', 'HON', 'ARE', 'ON']"
+2012-07-22,1,0.5963744,Bottom Fishing For Greek Stocks?,"['NOW', 'A', 'ON', 'ARE']"
+2012-09-24,1,0.5609743,My review of PocketSmith,"['MO', 'A', 'O', 'APP', 'ALL', 'T', 'D', 'IT', 'FAST', 'NOW', 'WELL', 'SO', 'ARE', 'ON', 'HAS']"
+2012-04-24,0,0.30136207,Netflix (NFLX) Tumbles After Forecasting Slower Online Growth,['NFLX']
+2012-03-12,0,0.2863688,Options/Trading 107: Risk and Strategy (Part II-B),"['A', 'ALL', 'EBAY', 'T', 'IT', 'NOW', 'SO', 'ARE', 'ON', 'HAS']"
+2012-04-25,0,0.31205544,Phillip 66 or Conoco 76? Which to invest?,"['NOW', 'ARE']"
+2012-06-21,0,0.2784039,"Seagate (STX) is at a P/B of 2.68 and Western Digital (WDC) is at a P/B of only 1.03, why should I NOT be loading up on these, value investors?","['A', 'WDC', 'STX', 'T', 'D', 'C', 'ON']"
+2012-01-10,0,0.2446787,Some ideas on Preferreds,"['A', 'D', 'IT', 'C', 'WELL', 'ARE', 'ON', 'HAS']"
+2012-07-24,0,0.25335264,Best Buy Pay Expert Said to Quit Over Bonuses,[]
+2012-07-14,0,0.26246357,"Pepsi is going to branch into the dairy sector, starting with yogurt. Your thoughts?","['A', 'ON', 'ALL']"
+2012-01-19,0,0.26081288,"Would anyone care to compare the actual retirement return % of their previous ""retirement planning"" aside from government programs like Social Security?","['A', 'ALL', 'IT', 'WELL', 'SO', 'ARE', 'T', 'HAS']"
+2012-07-13,1,0.5796681,WFC Wells Fargo & Company Reports Good Earnings Power Gauge Bullish,['WFC']
+2012-01-23,1,0.5755134,"Question /r/FOREX, how do you view your profits/losses?","['L', 'A', 'D', 'IT', 'ON']"
+2012-09-20,1,0.57618433,"Starting a Berkshire Hathaway Letters Reading Group, Private Subreddit",['A']
+2012-10-29,1,0.59287286,Wells Fargo Inaccurately Billing Customers For Quicken Web Connect,[]
+2012-09-20,1,0.5497193,Updated Reading List,"['A', 'ON', 'J', 'ALL', 'BEN']"
+2012-09-20,1,0.58188236,Gold Delta SkyMiles Credit Card from American Express Review,[]
+2012-03-30,1,0.5258254,Solar energy anybody?,"['IT', 'ON']"
+2012-01-07,1,0.57694423,"I'm looking to break-in to the stock market. /r/investing helped me make a decision on my 401(k), can you help me here, too?","['SYY', 'A', 'ARE', 'ON', 'HAS']"
+2012-08-21,0,0.32729194,Best Buy suspends outlook as profits fall,[]
+2012-01-13,1,0.5881797,AAPL releases list of its suppliers,"['LITE', 'A', 'AAPL', 'ES', 'TECH', 'HON', 'ARE', 'ON']"
+2012-02-17,0,0.23625183,Titanium Dioxide and/or Zircon,"['A', 'ALL', 'IT', 'WELL', 'ON']"
+2012-04-12,1,0.5979014,Apr 12 biggest morning movers,"['ARE', 'WAB']"
+2012-04-22,0,0.3094931,"? about stock price and volume. If a stock price plummets, isn't it because ppl are selling it? aka, high volume? ","['PPL', 'A', 'IT', 'C', 'ARE', 'T', 'HAS']"
+2012-09-23,1,0.56167316,"Hey reddit, up to 10k to invest, starting a diversified portfolio, how am I doing, this is just the blue print","['A', 'ON', 'MMM', 'AAPL', 'ALL', 'KO', 'LULU', 'SO', 'TSLA']"
+2012-07-18,1,0.57864165,Company Fidelity 401k recently restructured. New choices are pretty weak. Starting a BrokerageLink account and trying to pick my first mutual fund. What to look for?,"['A', 'ON', 'ALL', 'ARE', 'T']"
+2012-12-02,0,0.2802715,To close or not to close: how many credit cards should I have?,"['A', 'HD', 'T', 'D', 'IT', 'NOW', 'SO', 'ON', 'HAS']"
+2012-08-14,1,0.5498939,"Gift from grandparents, stocks!","['A', 'ALL', 'IT', 'NOW', 'ARE']"
+2012-09-23,1,0.5796681,Any fun stocks to invest in for kicks and giggles?,"['A', 'IT', 'WELL', 'SO', 'T']"
+2012-04-22,0,0.24517538,Where are you guys getting cheap dental plans? (USA here),"['MO', 'A', 'LOW', 'T', 'IT', 'EL', 'WELL', 'SO', 'ARE', 'ON', 'HAS']"
+2012-11-26,0,0.23152734,"Day of speculation reckoning for ACAD, update on previous posting","['A', 'Q', 'ADP', 'T', 'IT', 'C', 'ARE', 'ON', 'IR']"
+2012-04-10,0,0.32119378,"Public Service Announcement: If you have a Costco account, you can get a nice discount at Sharebuilder","['A', 'ON', 'ALL', 'IT', 'ARE', 'T']"
+2012-09-14,0,0.24265401,Discussion Panels From Bloomberg Markets 50 Summit 2012,"['L', 'A', 'ON', 'Q', 'D', 'T']"
+2012-03-07,0,0.36954257,3 Reasons to buy Electronic Arts [EA],"['EA', 'A', 'APP', 'LOW', 'ALL', 'T', 'IT', 'NOW', 'ARE', 'ON', 'HAS']"
+2012-06-29,1,0.54325897,Should I invest in Micron Technology?,"['A', 'MU', 'IT', 'NOW', 'SO', 'T']"
+2012-05-01,1,0.5497193,Results for the April Stock Picking Competition are in! GRPN short takes the prize!,"['A', 'ON', 'ALL', 'FSLR', 'IT', 'FAST', 'WELL', 'ARE', 'T', 'HAS']"
+2012-07-18,0,0.26530904,Secular Long Themes,"['COST', 'A', 'T', 'ON']"
+2012-01-17,1,0.592976,WYNN +5% on good China news,"['L', 'MGM', 'A', 'LVS', 'T', 'D', 'WYNN', 'C', 'ON']"
+2012-12-02,1,0.566843,Market data on specific brands?,"['CHD', 'A', 'ON', 'ALL']"
+2012-09-11,0,0.2699025,NVDA - What do you guys think?,"['A', 'ON', 'ALL', 'IT', 'NVDA', 'SO', 'ARE', 'T', 'HAS']"
+2012-06-14,1,0.54694045,US hot property for Indian buyers,"['IT', 'ARE', 'ALL']"
+2012-05-14,1,0.5758117,"working for everything, making nothing.","['A', 'ON', 'ALL', 'IT', 'UPS', 'ARE', 'T', 'HAS']"
+2012-05-02,1,0.56807137,May 2nd Earnings Watch - [WFM] [V],"['A', 'Q', 'V', 'MA', 'SO', 'ARE', 'ON']"
+2012-09-24,1,0.59436,Would anyone care to help me with a research question?,"['IT', 'A', 'T']"
+2012-05-02,1,0.6049679,A forget about it stock.,"['A', 'PH', 'SYK', 'Q', 'ISRG', 'GRMN', 'IT', 'CF', 'ARE', 'ON']"
+2012-02-05,1,0.55810875,"Bank Of America, Wells Fargo & JP Morgan Sued By New York AG Eric Schneiderman Over Use Of MERS",[]
+2012-09-14,1,0.59658,Discussion Panels From Bloomberg Markets 50 Summit 2012,"['L', 'A', 'ON', 'Q', 'D', 'T']"
+2012-11-13,1,0.5755134,Economical Potential With Trust Deed Investments,"['A', 'ARE']"
+2012-10-03,0,0.29431638,Presentations From The Value Investing Congress 2012,"['WELL', 'DOC']"
+2012-02-23,0,0.27654397,An investing newb has questions on Value Investing..... ,"['A', 'ALL', 'IT', 'WELL', 'ARE', 'ON', 'HAS']"
+2012-06-12,1,0.60245633,Future of Biz: Global Standards & Metric System,"['L', 'A', 'IT', 'SO', 'ARE', 'ON']"
+2012-07-13,0,0.2776688,Automated trading in ThinkorSwim with custom buy and sell signals?,"['A', 'ON', 'IT', 'SO', 'T', 'HAS']"
+2012-11-14,0,0.44896975,Advanced Micro Devices (AMD): We're not looking for a buyer,"['A', 'AMD']"
+2012-08-13,1,0.5560587,"Tweedy, Browne & Company - Great 10 Year Record = Great Future, Right?",[]
+2012-03-16,1,0.5477665,"Questions on shorter term trades inside of a long term strategy from a ""value investing"" standpoint.","['A', 'ALL', 'IT', 'SO', 'ARE', 'ON']"
+2012-02-22,1,0.54710114,Cummins vs CAT Engines,"['CAT', 'A', 'ALL', 'NOW', 'ARE', 'T', 'HAS']"
+2012-10-16,0,0.2509128,Problem solving NFL Running Backs with economics?,"['A', 'T', 'FIX', 'GM', 'SO', 'ARE', 'ON']"
+2012-10-21,1,0.57282734,I don't know much about stock. I recently got a job working for Hormel Foods (HRL) and have an option to weekly amounts taken from my check to invest in their stock.,"['A', 'HRL', 'T']"
+2012-02-01,0,0.3094931,Best Buy Boosts Laid Off Employee Moral By Telling Them They're Opening More Stores In China,[]
+2012-10-01,1,0.55932575,Copying in China - not a strategy in the long run,"['A', 'ON', 'LOW', 'ALL', 'D', 'IT', 'SO', 'ARE', 'T', 'EG']"
+2012-01-17,0,0.33057925,Morgan Stanley Said to Limit Cash Bonuses to $125K,[]
+2012-05-08,1,0.56202626,Intel Boosts Its Quarterly Dividend by 7.1%,[]
+2012-06-12,1,0.58588624,Biggest % movers June 12th,"['URI', 'A', 'ES', 'ARE']"
+2012-08-06,1,0.5774656,Best Buy (NYSE:BBY) Founder Offers $26 a Share to Buy Retailer,"['BBY', 'A']"
+2012-03-19,0,0.30704623,X - US steel +6.5%,"['IT', 'ON', 'NUE']"
+2012-03-25,0,0.29370826,Tips for Canadians investing in rental properties in United States,[]
+2012-08-14,0,0.24835184,"Homebuilders, Hardware Stores and playing the ""eventual"" housing rebound?","['A', 'ON', 'HD', 'LEN', 'T']"
+2012-11-05,0,0.25618014,Buffet's Opinion on Gold,"['COST', 'A', 'ALL', 'IT', 'XOM', 'ON']"
+2012-12-07,0,0.27590945,Las Vegas Sands (LVS)...betting on a breakout,"['A', 'LVS', 'IT', 'SO', 'ON']"
+2012-07-13,0,0.42587385,WFC Wells Fargo & Company Reports Good Earnings Power Gauge Bullish,['WFC']
+2012-03-13,1,0.5865747,Great Warren Buffett / Berkshire Hathaway Resources,[]
+2012-04-17,0,0.2717829,Domain parking experiment,"['MO', 'COST', 'A', 'ON', 'PM', 'T', 'COIN', 'IT', 'NOW', 'SO', 'ARE', 'DE', 'HAS']"
+2012-07-29,1,0.61207783,Getting your actual numbers for a credit score.,"['A', 'T', 'D', 'IT', 'ON']"
+2012-07-01,0,0.31205544,What do you think about the coming Palo Alto Networks IPO?,"['WELL', 'A']"
+2012-06-27,0,0.24935585,Presentations From The Vail ValueX Conference June 2012,['A']
+2012-05-08,1,0.5861676,Biggest % gainers May 8,"['ARE', 'GNRC', 'BR']"
+2012-10-24,0,0.25196967,Would this help the economy?,['T']
+2012-11-28,0,0.39329764,Online sales increase every year. Would it be wise to invest in UPS and/or FedEx?,"['IT', 'UPS']"
+2012-09-05,1,0.56173706,My idea for helping the economy:,"['A', 'ALL', 'T', 'IT', 'BA', 'SO', 'ARE', 'ON']"
+2012-11-08,1,0.5822832,Need Post-Election Financial Advice? Try the 1% Solution,[]
+2012-07-08,0,0.3260568, Best Buy has confirmed that about 650 employees in its Geek Squad division will be laid off nationwide.,['HAS']
+2012-04-22,1,0.5939037,Fasten Your Seatbelts: High Frequency Trading Is Coming To The Treasury Market,[]
+2012-10-19,0,0.28110948,Why aren't these people who have clearly traded on inside information going to jail?,"['A', 'ON', 'IT', 'GOOG', 'ARE', 'T']"
+2012-06-27,1,0.56056094,Presentations From The Vail ValueX Conference June 2012,['A']
+2012-07-02,1,0.5995731,"What are Thoughts on (Nanosphere) NSPH, and the Molecular Diagnostics Field in General?","['A', 'LOW', 'ALL', 'T', 'D', 'IT', 'ARE', 'ON', 'HAS']"
+2012-01-30,0,0.44367576,Tax Carnival #96: Dealing With Tax Dragons - Don't Mess With Taxes,['T']
+2012-11-10,0,0.33999196,Thoughts on this potential portfolio? ,"['A', 'ON', 'MSCI', 'MMM', 'AAPL', 'D', 'IT', 'GOOG', 'MSFT', 'SO', 'ARE', 'TSLA', 'HAS']"
+2012-04-22,1,0.5692017,Where are you guys getting cheap dental plans? (USA here),"['MO', 'A', 'LOW', 'T', 'IT', 'EL', 'WELL', 'SO', 'ARE', 'ON', 'HAS']"
+2012-10-03,0,0.34251657,Presentations From The Value Investing Congress 2012,"['WELL', 'DOC']"
+2012-09-20,1,0.57864165,Updated Reading List,"['A', 'ON', 'J', 'ALL', 'BEN']"
+2012-11-14,1,0.5863304,"r/investing, please help! I need to do a research report on one stock. [Details inside]","['A', 'ON', 'ALL']"
+2012-08-14,1,0.58724797,Here's a budget sheet you guys can use and personalize for yourself.,"['A', 'ON', 'ALL', 'IT', 'SO', 'ARE', 'T']"
+2012-01-13,1,0.5264531,AAPL releases list of its suppliers,"['LITE', 'A', 'AAPL', 'ES', 'TECH', 'HON', 'ARE', 'ON']"
+2012-03-29,0,0.26265267,"Best Buy to Close 50 Stores, Posts Loss on Restructuring Charges ",['ON']
+2012-08-29,1,0.58560485,johnson and johnson taking over another synthes?!! ,"['NOW', 'ARE']"
+2012-09-14,1,0.58576775,Discussion Panels From Bloomberg Markets 50 Summit 2012,"['L', 'A', 'ON', 'Q', 'D', 'T']"
+2012-02-12,1,0.5477665,[TSLA] Tesla Motors: 5 Reasons to Buy Tesla.,"['TSLA', 'A', 'ON', 'AAPL', 'IT', 'NOW', 'WELL', 'ARE', 'T']"
+2012-05-24,1,0.53134614,"Two months after signing the ""Commodities Futures Modernization Act"" which enriched banks, Bill Clinton got a check for $125k from Morgan Stanley. He's now worth ~$80m.","['NOW', 'A']"
+2012-05-21,0,0.24229525,Earnings 5/22 BMO - AutoZone [AZO] & Ralph Lauren [RL] ,"['RL', 'A', 'PEP', 'LOW', 'Q', 'ALL', 'IT', 'AZO', 'SO', 'ARE', 'ON', 'HAS']"
+2012-09-20,0,0.406862,Updated Reading List,"['A', 'ON', 'J', 'ALL', 'BEN']"
+2012-03-22,0,0.22996725,Automatic Investment Plan Help,"['VZ', 'A', 'HAS']"
+2012-12-12,1,0.6006862,First Solar still shining,"['A', 'FSLR', 'IT', 'NOW', 'ON']"
+2012-10-13,0,0.24775985,J.P. Morgan and Wells Fargo: Housing on Mend,['ON']
+2012-03-21,1,0.55932575,GMCR +12% on reaffirming relationship with SBUX,"['SBUX', 'A', 'ON']"
+2012-10-10,0,0.2307464,"Stocks to Watch: True Religion, Yum Brands, Cummins",['YUM']
+2012-09-06,0,0.27590945,My 5 stock portfolio. Are buy'n'hold types welcomed around these parts?,"['MO', 'A', 'ORCL', 'IT', 'DIS', 'FDX', 'NOW', 'ARE', 'ON']"
+2012-07-01,1,0.5477665,Thinking about moving my 403(b).  What do I need to know?,"['A', 'ALL', 'T', 'IT', 'NOW', 'ARE', 'ON']"
+2012-01-13,0,0.34103364,AAPL releases list of its suppliers,"['LITE', 'A', 'AAPL', 'ES', 'TECH', 'HON', 'ARE', 'ON']"
+2012-09-26,1,0.58300304,The Federal Reserve’s latest mortgage bond purchases so far are helping profit margins at lenders including Wells Fargo & Co. (WFC) and JPMorgan Chase & Co. (JPM) more than homebuyers and property owners looking to refinance. ,"['WFC', 'SO', 'ARE', 'JPM']"
+2012-05-18,0,0.25590113,Which of Etrade's Comission-free ETFs are worth buying?,"['COST', 'A', 'T', 'IT', 'NOW', 'SO', 'ARE', 'ON']"
+2012-02-09,1,0.5910743,GOOG getting into home entertainment devices,"['A', 'AAPL', 'IT', 'NOW', 'GOOG', 'ON', 'HAS']"
+2012-03-04,0,0.26697797,Refinancing Question,['A']
+2012-03-07,1,0.57320064,3 Reasons to buy Electronic Arts [EA],"['EA', 'A', 'APP', 'LOW', 'ALL', 'T', 'IT', 'NOW', 'ARE', 'ON', 'HAS']"
+2012-05-07,1,0.5825653,Biggest % movers Mon 7th,"['ARE', 'VRTX']"

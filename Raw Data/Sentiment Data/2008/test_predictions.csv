@@ -1,0 +1,5 @@
+date,pred_label,pred_prob,title,tickers
+2008-10-15,0,0.49776462,How's Your Credit? General Motors Only Lending to Customers With Scores of 700+,[]
+2008-11-24,1,0.50559974,Sources: Government working on Citigroup rescue,['ON']
+2008-11-26,1,0.5069728,"Final Super Bowl Ad Slots Not Selling, FedEx, General Motors Among Companies Opting To Sit Out This Year",[]
+2008-11-24,1,0.50559974,"Just curious. If we are throwing billions of dollars at Citigroup, does it mean they will not fire 53,000 people?  And who is it helping if it isn't used to save jobs?","['IT', 'T', 'ARE']"

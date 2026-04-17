@@ -1,0 +1,25 @@
+============================================================
+MODEL PERFORMANCE SUMMARY
+============================================================
+
+MODEL PERFORMANCE:
+  Best F1 Score: 0.9100
+  Best Accuracy: 0.9101
+  Best Precision: 0.9103
+  Best Recall: 0.9103
+
+SENTIMENT STATISTICS:
+  Mean sentiment: 0.4902
+  Median sentiment: 0.5041
+  Std deviation: 0.1610
+  Max sentiment: 0.9697
+  Min sentiment: 0.0047
+  Positive days (>0.5): 184/363 (50.7%)
+  Negative days (<0.5): 179/363 (49.3%)
+  Neutral days (=0.5): 0/363 (0.0%)
+
+DATA COVERAGE:
+  Date range: 2022-01-01 to 2022-12-30
+  Total days analyzed: 363
+  Total test samples: 5431
+  Total mentions: 67367.0

@@ -1,0 +1,25 @@
+date,pred_label,pred_prob,title,tickers
+2009-03-10,1,0.50120544,FedEx offers free resume printing,[]
+2009-05-22,1,0.5130738,Sen. Sherrod Brown at labor meet: ‘New energy economy is unprecedented opportunity’,[]
+2009-03-07,0,0.48659074,FedEx to help the unemployed by offering free resume printing on March 10,['ON']
+2009-06-11,1,0.50187683,Carnival of Pecuniary Delights Eleventh Edition,[]
+2009-09-03,0,0.47887912,"Citigroup, the Perfect Hedge",[]
+2009-05-23,1,0.50819325,Obama is watching so instead of bonuses let's double salaries - Morgan Stanley.,['SO']
+2009-10-14,1,0.50296015,JPMorgan Chase Reports $3.6 Billion Profit ,[]
+2009-05-22,1,0.5142936,The truth about Costco: My membership saves $500+ per year ,[]
+2009-08-30,1,0.52000886,Feds seize Bradford Bank; M&T to buy assets,['T']
+2009-06-22,0,0.4951326,"Best of Money Carnival - June 22, 2009",[]
+2009-09-16,0,0.4759555,Philip Morris boosts dividend by 4 cents per share,[]
+2009-03-13,0,0.49356115,Save Money & Eat Better - Brown bag it.,['IT']
+2009-04-22,0,0.48759714,"Earth Day Renewable Energy Stocks Sector Close-Up on Solar Stocks; First Solar, Inc. (NASDAQ: FSLR), SunPower Corporation Shine for Investors","['FSLR', 'ON']"
+2009-02-24,1,0.50968814,FSLR First Solar Conference Call Summary: Shares slide 25 points in after hours,['FSLR']
+2009-08-31,0,0.4939578,Best Of Money Carnival #14,[]
+2009-04-30,0,0.49160847,Carnival of Pecuniary Delights #4 - A Little Definition,['A']
+2009-04-19,1,0.5159857,"Until the banks come clean, show their true numbers, and take honest recovery action, it is unlikely that trust will be restored in the property and credit markets.",['IT']
+2009-12-21,1,0.51470524,"""As Good As Gold"" by John Browne, FSU Editorial 12/16/2009",[]
+2009-12-18,1,0.5206944,"Morgan Stanley’s chairman and chief executive officer, won’t accept a bonus for a third straight year amid predictions his bank will report an annual loss and public pressure to rein in Wall Street pay.","['A', 'T']"
+2009-10-21,1,0.50717115,"As...financial firms were getting billions of federal money to save them last fall, they were boosting their perks to company CEOs.
+
+...personal use of corporate jets, free company cars, paid dues for country clubs - & some of them even got all the taxes paid on their perks","['ON', 'ALL']"
+2009-12-28,1,0.5383879,Morgan Stanley Says Interest Rates Set To Soar,[]
+2009-11-08,0,0.48867992,Best way to save spare change.,"['A', 'ON', 'D', 'IT', 'KEY', 'T']"

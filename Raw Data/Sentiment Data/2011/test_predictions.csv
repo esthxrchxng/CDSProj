@@ -1,0 +1,102 @@
+date,pred_label,pred_prob,title,tickers
+2011-01-25,1,0.69564825,Carnival of Personal Finance – Fun with Finance,[]
+2011-01-02,0,0.25137195,I'm staring a website for alternative stock researching methods and would like to use /r/stocks as a sounding board and possibly get some more ideas,"['COST', 'A', 'ON', 'ALL', 'FIX', 'D', 'IT', 'KEY', 'NOW', 'SO', 'ARE', 'T', 'HAS']"
+2011-12-03,0,0.3736187,Barron's article on GSVC,"['A', 'T', 'IT', 'TECH', 'WELL', 'ARE', 'ON', 'HAS']"
+2011-05-13,0,0.29900286,How To Find Free E-Books And Reading Material For Your Amazon Kindle Or Other E-Reader,[]
+2011-09-06,1,0.6663882,Monopoly Currency,"['COST', 'A', 'ON', 'ALL', 'D', 'IT', 'WELL', 'ARE', 'T', 'HAS']"
+2011-12-19,0,0.31737337,"Carnival of Wealth, Goodbye Autumn Edition | Control Your Cash: Making Money Make Sense",[]
+2011-11-14,1,0.70079243,"Tilt-a-World: A Prediction-Free, 50/50 S&D [As promised, here is my own long-term, buy-hold-and-rebalance investment portfolio, complete with detailed explanations behind asset class and fund choices]","['COST', 'A', 'ON', 'ALL', 'D', 'IT', 'NOW', 'WELL', 'ARE', 'T', 'HAS']"
+2011-09-21,0,0.25128007,KISS: Keep it Simple Starbucks,['IT']
+2011-09-14,0,0.35824078,Cummins and Other Industrials Finding Growth in Emerging Markets,[]
+2011-05-09,1,0.6579231,401k Allocation Question. What fund to choose?,"['ON', 'IT', 'ARE', 'T', 'HAS']"
+2011-09-10,0,0.3632233,"DEBT FREE for over 2 years; NOW seeking a new credit card FICA score is good and will NOT be spending much. Should I apply for CREDIT UNION OR CORPORATE CARD?
+Thanks. Really need the advice","['NOW', 'A']"
+2011-12-18,0,0.46628353,Question with deferrments and ways to not live paycheck to paycheck,"['A', 'ALL', 'IT', 'NOW', 'ON', 'HAS']"
+2011-08-07,0,0.3047654,MasterCard Jumps as Profit Beats Estimates on Card Spending,['ON']
+2011-11-14,1,0.66483957,  Best of Money Carnival #129: It's All About Me Edition | Your Finances Simplified,"['IT', 'ALL']"
+2011-07-13,0,0.40456626,"Longtime lurker, looking for advice from PF","['A', 'ON', 'ALL', 'D', 'IT', 'NOW', 'SO', 'T']"
+2011-10-19,1,0.6183484,"Dylan Ratigan With David Degraw & Bill Black: ""We Put The U.S. Treasury Up For Auction And Goldman Sachs Was The Highest Bidder!""",[]
+2011-08-25,1,0.7126823,AAPL Gets New CEO,"['A', 'ARE', 'AAPL', 'ALL']"
+2011-05-09,0,0.3335575,401k Allocation Question. What fund to choose?,"['ON', 'IT', 'ARE', 'T', 'HAS']"
+2011-07-18,0,0.47229555,Best of Money Carnival #112 | Prairie EcoThrifter.com,[]
+2011-02-03,0,0.4548656,Bernanke Says Faster Job Gains Needed to Assure Recovery,[]
+2011-11-07,0,0.36982703,Free Advice: 5 steps to take before you start investing,"['COST', 'A', 'ON', 'LOW', 'ALL', 'IT', 'ARE', 'T', 'EG']"
+2011-04-15,0,0.47973028,Looking for Tax Advice for (hopefully) simple question.,"['A', 'ALL', 'IT', 'NOW', 'ARE', 'ON', 'HAS']"
+2011-01-11,0,0.25683197,"Found some Stock Certificates, Intel?","['IT', 'SO', 'ARE']"
+2011-08-14,1,0.5395595,Graham's criteria 1 & 6 provided a return of 38% vs. S&P 500's 14% from 1974-1981 in an Empirical Study,"['A', 'ALL', 'V', 'IT', 'MET', 'SO', 'ON']"
+2011-12-10,1,0.51599336,A 26 Year Old's Personal Finance Strategy,"['A', 'APP', 'LOW', 'ON', 'ALL', 'D', 'IT', 'NOW', 'WELL', 'SO', 'ARE', 'T', 'HAS']"
+2011-01-19,0,0.42814374,Stocks from grandpa,"['IT', 'A', 'T', 'MOS']"
+2011-12-29,0,0.4367722,"PulteGroup, Inc. (NYSE: PHM) Sells Select Colorado Land Assets",['PHM']
+2011-04-25,0,0.39919668,"CapWest Mortgage: Discounts For Costco Customers, Good Rates For Good Credit",[]
+2011-07-29,0,0.4327225,The U.S. Treasury has less cash on hand than Apple Inc.,"['ON', 'HAS']"
+2011-09-26,1,0.65679586,Berkshire Hathaway to Buy Back an Indefinite Amount of Shares,[]
+2011-06-15,0,0.2498131,Make money on the Cordcutting Trend,"['A', 'HD', 'ALL', 'NOW', 'SO', 'ARE', 'ON']"
+2011-10-03,1,0.68715787,"American bank stocks tank. BofA is down well below the $6 mark, down 4.9% so far. Citigroup, Morgan Stanley, both down over 6%","['MS', 'A', 'Q', 'C', 'WELL', 'SO', 'BAC']"
+2011-10-07,1,0.5554352,Seeking advice regarding Father's portfolio,"['RL', 'A', 'ALL', 'T', 'D', 'IT', 'TECH', 'C', 'NOW', 'GOOG', 'SO', 'ARE', 'ON', 'HAS']"
+2011-02-08,1,0.5381357,23 - Am I on the right financial track?,"['A', 'ON', 'ALL', 'FIX', 'IT', 'WELL', 'ARE', 'T', 'BAC']"
+2011-09-06,0,0.29507753,Monopoly Currency,"['COST', 'A', 'ON', 'ALL', 'D', 'IT', 'WELL', 'ARE', 'T', 'HAS']"
+2011-05-13,0,0.3381864,Setting Up an LLC for Commercial Real Estate Investment with few members. How should I structure it and finance it while minimizing my risk to personal assets? ,"['A', 'ALL', 'IT', 'KEY', 'WELL', 'SO', 'ARE', 'ON']"
+2011-08-16,1,0.682891,"DELL misses, -5% after hours","['A', 'Q', 'IT', 'DELL', 'ON']"
+2011-11-02,0,0.47612292,MasterCard hold or sell?,"['IT', 'A', 'T', 'HAS']"
+2011-04-11,1,0.7221843,Best of Money Carnival #98 | Budgets Are Sexy,['ARE']
+2011-06-15,1,0.6010083,Was Today a Headfake Again in the Markets?,"['A', 'DOW', 'ALL', 'IT', 'NOW', 'WELL', 'SO', 'ARE', 'ON']"
+2011-08-28,1,0.65329283,Warren Buffett and George Soros are crony capitalists.,"['A', 'ON', 'ED', 'ALL', 'IT', 'NOW', 'WELL', 'SO', 'ARE', 'T', 'HAS']"
+2011-11-14,0,0.23988312,"Tilt-a-World: A Prediction-Free, 50/50 S&D [As promised, here is my own long-term, buy-hold-and-rebalance investment portfolio, complete with detailed explanations behind asset class and fund choices]","['COST', 'A', 'ON', 'ALL', 'D', 'IT', 'NOW', 'WELL', 'ARE', 'T', 'HAS']"
+2011-08-03,0,0.45710644,Philip Morris: The Steady Growth Business Over Time,[]
+2011-09-06,1,0.68431675,Monopoly Currency,"['COST', 'A', 'ON', 'ALL', 'D', 'IT', 'WELL', 'ARE', 'T', 'HAS']"
+2011-05-18,0,0.28861922,BOE Voted 6-3 to Hold Interest Rate at 0.5%,[]
+2011-02-18,0,0.3546007,"Silver Price Ready To Soar! - ""JPMorgan Chase Will Accept Physical Gold For Loan Collateral, But . . .""",[]
+2011-01-19,0,0.26759952,My Wealth Builder: The Wealth Builder Carnival #24,[]
+2011-10-16,1,0.5606286,Over 50 Experts with 1 Message [Quotes],"['L', 'COST', 'A', 'O', 'LOW', 'BEN', 'ALL', 'T', 'FOX', 'IT', 'NOW', 'WELL', 'SO', 'ARE', 'ON', 'WM']"
+2011-10-17,1,0.6663882,The “Holidays Are Coming” Edition – Best Of Money Carnival,['ARE']
+2011-05-20,0,0.44180843,Moving to Wells Fargo PMA Package,[]
+2011-05-09,0,0.27284724,401k Allocation Question. What fund to choose?,"['ON', 'IT', 'ARE', 'T', 'HAS']"
+2011-07-19,1,0.54043883,"Wells Fargo Exceeds Expectations With $3.9 Billion Profit, Up 29%",[]
+2011-05-20,1,0.6747474,Barnes & Noble Inc.'s shares jumped more than 27 percent Friday morning after the company said media mogul John Malone's Liberty Media Corp. has offered to buy it for about $1 billion.,"['IT', 'HAS']"
+2011-05-09,0,0.30751392,"Citibank completes 1:10 reverse split, technical analysis inside.","['A', 'ALL', 'IT', 'C', 'NOW', 'SO', 'ARE', 'HAS']"
+2011-06-07,1,0.6631238,Why I Love Shopping At Costco,[]
+2011-12-05,1,0.6932653,Help setting up a plan!,"['A', 'ON', 'ARE']"
+2011-10-31,0,0.30860683,"Twenty-year-old college junior looking for financial advice. I've hit a point where I have very little hope of getting out, I'm depressed, feeling helpless, and am turning to you, r/personalfinance, for any kind of advice or ray of hope.","['A', 'ON', 'LOW', 'ALL', 'IT', 'NOW', 'SO', 'ARE', 'T', 'HAS']"
+2011-12-13,0,0.3366581,Best Buy's lower earnings raise holiday worries,[]
+2011-05-24,0,0.28313676,Cummins Inc.: Hauling In Profits From Truckers,[]
+2011-11-22,1,0.66725606,Shaw Capital Management: Shaw Capital Management Financial News,"['A', 'Q', 'IT', 'ARE', 'ON', 'HAS']"
+2011-02-28,0,0.35086608,Carnival of Personal Finance #298 – The Best Money Articles Online,[]
+2011-09-07,1,0.67033863,FAQ submission: Vendor Management,"['GE', 'COST', 'A', 'ON', 'HD', 'ALL', 'IT', 'MOS', 'NOW', 'WELL', 'SO', 'ARE', 'T', 'HAS']"
+2011-08-24,0,0.31347233,Carnival of Personal Finance #323 – Better Late than Never Edition,[]
+2011-11-21,1,0.67329913,"Carnival of Wealth, Thanksgiving Edition | Control Your Cash: Making Money Make Sense",[]
+2011-07-19,0,0.37290475,"Wells Fargo Shares Climb on Record Profit, $1.5 Billion Cost-Cutting Plan","['COST', 'ON']"
+2011-06-21,0,0.45197654,Monish Pabrai - Why He Bought Wells Fargo And What Macro Trends Drive His Investing,[]
+2011-11-21,0,0.25312182,Best of Money Carnival #130 – Thanksgiving Facts edition,[]
+2011-06-06,1,0.682891,Is there a way to invest in the Guarani Aquafier?,"['IT', 'SO', 'A', 'KEY']"
+2011-01-14,0,0.44080022,Credit union with great online banking?,['A']
+2011-09-08,0,0.31795546,Feeling good about decker?,"['A', 'ALL', 'D', 'IT', 'WELL', 'ARE', 'ON', 'HAS']"
+2011-04-18,0,0.36155912,Ex-Gov. Johnson: Fed Policy Like a Madoff Ponzi Scheme,['A']
+2011-09-07,1,0.70826304,Name a few companies you think is a good buy and why,"['NI', 'A', 'IT', 'C', 'ON']"
+2011-12-23,0,0.39341414,"China: A Look at Growth, the Environment, Real Estate and Education",['A']
+2011-11-03,0,0.45710644,Need advice on finding people or companies that need (and will pay for) a real-time trading platform that I built.,"['L', 'A', 'APP', 'IT', 'SO', 'ARE', 'ON']"
+2011-06-19,0,0.3880671,Stocks to Put on Watchlist for after the Market Correction,"['A', 'ALL', 'IT', 'NOW', 'WELL', 'ARE', 'ON', 'HAS']"
+2011-05-09,0,0.46880013,401k Allocation Question. What fund to choose?,"['ON', 'IT', 'ARE', 'T', 'HAS']"
+2011-07-08,0,0.31294715,"r/investing, What should I do about Chipotle Mexican Grill?","['SO', 'A', 'T', 'IT', 'CMG', 'ARE', 'ON', 'HAS']"
+2011-12-05,1,0.6663882,Tax Carnival #93: Happy Taxmas 2011 - Don't Mess With Taxes,['T']
+2011-07-15,0,0.43860483,"Consumer prices fell last month for the first time in a year because of a steep drop in gas costs. But Americans paid more for autos, clothes and hotel stays, driving prices outside of volatile food and energy costs up.",['A']
+2011-10-04,1,0.6663882,Starbucks to Begin Collecting Donations to Stimulate U.S. Job Growth ,[]
+2011-05-13,0,0.3011051,Intel ups dividend 16 percent to boost laggard stock,['UPS']
+2011-07-31,0,0.32444942,Berkshire Hathaway: Worth Its Salt?,[]
+2011-01-19,0,0.33785862,$20 Amazon Gift Card for $10 (1/19 only),[]
+2011-05-03,0,0.42298123,Comprehensive 2011 Berkshire Hathaway Annual Meeting Notes,[]
+2011-10-04,0,0.35987014,"Bank of America, Your New $5 Fee Doesn't Scare Me",['T']
+2011-10-07,0,0.47495222,"Oct. 6 (Bloomberg) -- BlackRock Inc. 
+Chief Executive Officer Laurence D. 
+Fink, head of the world's largest asset 
+manager, said he understands the 
+concerns of protesters speaking out 
+against financial firms in New York and 
+other cities.",['D']
+2011-10-31,0,0.2622746,What do you guys think of Staples?,"['A', 'ON', 'IT', 'DELL', 'SO', 'ARE', 'T']"
+2011-07-19,1,0.66399586,Is buying gold worth it's weight (story inside)?,"['IT', 'A', 'T']"
+2011-10-16,0,0.33209375,Over 50 Experts with 1 Message [Quotes],"['L', 'COST', 'A', 'O', 'LOW', 'BEN', 'ALL', 'T', 'FOX', 'IT', 'NOW', 'WELL', 'SO', 'ARE', 'ON', 'WM']"
+2011-08-09,0,0.3381864,"Now is a great time to invest ... in a well-balanced buy-and-hold portfolio of stock indexes and bond funds (possibly commodities and/or cash in small doses, too). Harry Browne's PP is even over the past week, and many Lazy Portfolios are down only a few percent.","['A', 'LOW', 'ALL', 'IT', 'NOW', 'WELL', 'SO', 'ARE']"
+2011-05-09,0,0.4715312,401k Allocation Question. What fund to choose?,"['ON', 'IT', 'ARE', 'T', 'HAS']"
+2011-05-20,0,0.44949836,"James Woods on the problem with our financial culture: ""You're not required to be ethical""",['ON']
+2011-06-08,0,0.39219132,Tax Carnival #87: Star-struck Taxes - Don't Mess With Taxes,['T']
+2011-08-05,0,0.39399692,Scenario: Inherited $20k. What woud have the greatest positive impact on US economy?,"['A', 'ALL', 'D', 'IT', 'ARE', 'ON']"
