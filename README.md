@@ -54,7 +54,7 @@ CDSProj/
 │   └── real_time_sentiment_prediction.ipynb# Live prediction pipeline notebook
 │
 ├── Raw Data/
-│   ├── Financial Data/                     # Historical market data (Bloomberg/yfinance)
+│   ├── Financial Data/                     # Historical market data (Bloomberg Terminal exports)
 │   │   ├── SPX Last Open val.xlsx          # S&P 500 open/last prices
 │   │   ├── SPX Volume.xlsx                 # S&P 500 volume
 │   │   ├── VIX Index.xlsx                  # CBOE VIX volatility index
@@ -110,7 +110,7 @@ CDSProj/
 
 The prediction pipeline expects **114 features** in strict order:
 - **111 financial features** — S&P 500 price/volume, VIX, yield curve (2Y/10Y/3M), gold, crude oil, rolling returns, volatility, drawdowns, moving averages, and more
-- **3 sentiment features** — aggregated positive, neutral, and negative scores from social media
+- **3 behavioural/Reddit features** — `weighted_sentiment`, `momentum`, `total_mentions`
 
 See [`Model PKL Files/API_Feature_Contract.txt`](Model%20PKL%20Files/API_Feature_Contract.txt) for the full ordered feature list.
 
@@ -135,12 +135,40 @@ streamlit run app.py
 
 ## Dashboard Pages
 
-| Page | Access | Description |
-|---|---|---|
-| `app.py` | Public | Landing / home page |
-| `pages/Dashboard.py` | Public | S&P 500 risk score, crash warnings, price chart. Unlocks Sentiment & Ensemble charts when logged in as admin |
-| `pages/Admin_Login.py` | Public | Admin login form |
-| `pages/Admin_Dashboard.py` | Admin only | Full analytics — sentiment trend, social media activity, model confidence, model metrics |
+### `app.py` — Landing Page (Public)
+The entry point of the app. Displays:
+- Hero banner with project title and tagline
+- Three key feature cards: Real-time Risk Scoring, Social Sentiment Analysis, Ensemble ML Models
+- Navigation buttons — **View Public Dashboard** and **Admin Login**
+- Team member cards (Shani, Esther, Matthew, Desmond)
+
+### `pages/Dashboard.py` — Public Dashboard (Public)
+The main public-facing view. Displays:
+- Date selector for any prediction date (Jan–Apr 2026)
+- KPI row: Model Prediction (Downturn Warning / No Warning), Risk Score, Actual Outcome (if verified), Model Accuracy
+- S&P 500 price chart with 30-day outcome window and -3% drawdown threshold line
+- Prediction verification status (verified vs. partial window)
+- **Locked section** — shows lock placeholders for Sentiment & Momentum and Ensemble Model when not authenticated
+- **Unlocked section** — if logged in as admin, replaces the locked placeholders with:
+  - Sentiment & Momentum Analysis chart (dual-axis: sentiment line + momentum bars)
+  - Ensemble Model Confidence chart (RF, SVM, Voting Ensemble, TabNet probabilities)
+- Sidebar: public access info banner + **Admin Login** button
+
+### `pages/Admin_Login.py` — Admin Login (Public)
+Centered login form. Features:
+- Username / password fields
+- **Sign In** button — on success, sets `st.session_state.authenticated = True` and redirects to Admin Dashboard
+- **Back to Home** button — returns to `app.py`
+- Invalid credentials display an error alert
+
+### `pages/Admin_Dashboard.py` — Admin Dashboard (Admin only)
+Full analytics dashboard, accessible only after login. Displays:
+- Risk Analysis chart (predicted risk score over time with crash warning flags)
+- Sentiment & Momentum Analysis chart (weighted sentiment + momentum dual-axis)
+- Social Media Activity chart (total mentions + financial panic index dual-axis)
+- Ensemble Model Confidence bar chart (RF, SVM, Voting Ensemble, TabNet)
+- Expandable analytics panels with sentiment insights, social media stats, model performance metrics
+- Sidebar: admin welcome panel, **Logout** button (clears session, returns to `app.py`), CSV upload for custom predictions, time frame selector (Last 30 / 60 Days / All Data), model probability toggle
 
 ---
 
@@ -151,7 +179,7 @@ streamlit run app.py
 | Frontend | Streamlit, Plotly |
 | ML Models | PyTorch, TabNet (`pytorch-tabnet`), scikit-learn |
 | Sentiment NLP | HuggingFace Transformers |
-| Market Data | yfinance, openpyxl |
+| Market Data | Bloomberg Terminal (xlsx exports), openpyxl |
 
 ---
 
