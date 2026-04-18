@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🐻 The Bear Patrol
 
 **S&P 500 Bear Market Early Warning System**
@@ -166,3 +167,6 @@ Group 13
 | Desmond Ngui You Hong | 1008059 |
 
 *Singapore University of Technology and Design — Term 6 CDS Project*
+=======
+# CDSProj
+>>>>>>> 8518c0896583d3b8cd7603b6a0e94d5706aa989e
