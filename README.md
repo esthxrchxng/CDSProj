@@ -116,7 +116,7 @@ See [`Model PKL Files/API_Feature_Contract.txt`](Model%20PKL%20Files/API_Feature
 
 ---
 
-## Setup
+## GUI Dashboard Setup
 
 ```bash
 # Create and activate virtual environment
