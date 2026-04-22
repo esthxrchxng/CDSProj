@@ -183,6 +183,13 @@ Full analytics dashboard, accessible only after login. Displays:
 
 ---
 
+## Project Videos
+
+Project Code & Dashboard Video: https://youtu.be/rqbxswVTsF0
+Project Dashboard Video: https://youtu.be/1NV0F4OgIT0
+
+---
+
 ## Team
 Group 13
 
